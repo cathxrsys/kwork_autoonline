@@ -1,3 +1,12 @@
 # KWORK AUTOONLINE SCRIPT
 ## Автоонлайн скрипт для платформы фрилансеров KWORK.
 Запускает selenium в headless режиме, загружает куки (можно сдампить через EditThisCookie), и обновляет страницу каждые 10-30 секунд, что позволяет поддерживать нам онлайн на сайте. Можно установить более маленькие значения задержки, поскольку сайт никак этому не противостоит.
+
+Установка и запуск:
+
+```bash
+python3 -m venv myenv
+source myenv/bin/activate
+pip install -r requirements.txt
+python main.py
+```
